@@ -1,0 +1,13 @@
+#Butilca Rares
+
+    This is a program that manages orders from 2 input files: orders.txt and product_orders.txt.
+    The orders are represented by an ID and a number of products and the products are represented
+by an order ID and a product ID. A product ID can be met more than once in an order, which means
+that the product has been ordered in multiple quantity.
+    The program has a number of product manager threads and the same number of order manager
+threads. The product managers will manage one order at a time, while the product managers will look
+over the products to be shipped, announcing the product manager how many products have been found.
+If the number of products required is found, then both the order and the products will be printed
+as shipped in the output files.
+
+Check the Makefile for indications as to how to run the program.
